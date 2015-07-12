@@ -1,0 +1,371 @@
+/*
+ 
+font-family: 'Lato', sans-serif;
+font-family: 'Bangers', cursive;
+ 
+*/
+
+/* GERAL */
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+a:focus {
+	outline:none;
+}
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+h1, h2, h3 {
+	font-family: 'Bangers', cursive;
+  	color: #000;
+}
+
+h1 {
+  	text-align: center;
+  	text-shadow: 2px 3px 2px rgba(255, 255, 255, 0.7);
+  	font-size: 48px;
+  	margin-top: 40px;
+}
+
+h2 {
+	font-size:30px;
+	text-align:center;
+}
+
+p {
+	font-size:15px;
+	text-align: justify;
+  	color: #000;
+}
+
+input {
+	padding:5px 10px;
+	border-radius: 4px;
+  	min-width: 230px;
+  	margin:5px 0px;
+}
+
+/* MAPA */
+
+.filtro-marcadores {
+  	display: block;
+	position: relative;
+	margin-top: -20px;
+	width: 100%;
+	text-align: center;
+	height: 1px;
+}
+
+.filtro-marcadores select {
+	padding: 10px;
+	font-weight: bold;
+  	position: relative;
+  	margin: 20px;
+  	border-radius: 8px;
+  	border: 2px solid #000;
+  	box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.7);
+}
+
+.filtro-marcadores select:focus{
+  	border: 2px solid #000;
+}
+
+#google_maps {
+	width: 100%; 
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -10; /* Set z-index to 0 as it will be on a layer below the contact form */
+	position:absolute; 
+}
+
+.gm-style-iw{
+	text-align:center;
+}
+
+.info-content {
+	font-size: 15px;
+}
+
+.info-content .sucesso{
+	margin: 0px 10px;
+	font-weight: bold;
+	/*color: #008000;*/
+}
+
+button{
+	border:none;
+	border-radius: 3px;
+	padding:5px 10px;
+	margin:5px;
+	font-weight: bold;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+    opacity: 0.8;
+}
+
+button.remove-marker {
+	background: red;
+	color: #fff;
+}
+
+button.save-marker {
+	background: green;
+	color: #fff;
+}
+
+button:hover{
+	opacity: 1;
+}
+
+/* MENSAGEM */
+.mensagem p {
+	text-align: center;
+	margin: 0px 0px 30px;
+	color: #fff;
+}
+
+/* MENU */
+.menu{
+	background: #000;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	color: #FFF;
+	padding:40px 0px;
+}
+
+.menu ul {
+	padding: 0px;
+	text-align:center;
+}
+
+.menu li{
+	list-style: none;
+	display: inline-block;
+	margin:0px 30px;
+	font-size:20px;
+	text-transform: uppercase;
+}
+.menu a{
+	color:#fff;
+}
+
+.menu a:hover,
+.menu a:focus{
+	text-decoration:none;
+}
+
+.menu a:hover span{
+	border-bottom: 2px solid #fff;
+}
+
+.menu a span{
+	margin-left:5px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+}
+
+.menu a i{
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.share {
+	background: #FFF;
+	position: relative;
+	width: 100%;
+	padding: 30px 0px;
+	bottom: 0;
+	z-index:-20;
+	text-align: center;
+}
+
+.share h2 {
+	margin-bottom:20px;
+  	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.share .col-md-12 {
+	margin-bottom:50px;
+}
+
+.botao-menu {
+	text-align:center;
+	display:none;
+}
+
+.botao-menu a {
+  	padding: 8px 15px;
+	display: inline-block;
+	border: 1px solid #FFF;
+	margin: 20px;
+	border-radius: 6px;
+	background-color: #FFF;
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+.botao-menu a i {
+  font-size: 25px;
+  color: #000;
+}
+
+.botao-menu a:hover {
+	background-color: #000;
+}
+
+.botao-menu a:hover i{
+	color: #fff;
+}
+
+.menu-sobre:hover i{
+	color: #3487DF;
+}
+
+.menu-estatisticas:hover i{
+	color:green;
+}
+
+.menu-como-usar:hover i{
+	color: yellow;
+}
+
+.menu-doacoes:hover i, .menu-logout:hover i{
+	color: red;
+}
+
+.menu-share:hover i{
+	color: orange;
+}
+
+.share .fb_iframe_widget {
+  display: inline-block;
+  position: relative;
+  bottom: 5px;
+  margin-right: 10px;
+}
+
+.pagseguro{
+	margin-top:30px;
+	text-align:center;
+}
+
+/* MODAL */
+.fancymodal {
+	display:none;
+	max-width: 450px;
+	min-width: 300px;
+}
+
+.fancymodal p{
+	padding: 5px 10px;
+	font-size: 15px;
+}
+.fancymodal a{
+	font-weight: bold;
+	text-decoration: underline;
+	color: #000;
+}
+
+.share-contadores{
+	text-align: center;
+  	margin: 20px 0px 40px;
+}
+
+.fancybox-opened {
+  	top: 10% !Important;
+}
+
+#estatisticas h3{
+  	display: inline-block;
+  	margin-right: 10px;
+  	padding: 10px 10px; 
+  	margin: 0px 0px;
+  	vertical-align: middle;
+}
+
+#estatisticas span{
+  	display: inline-block;
+  	vertical-align: middle;
+}
+#estatisticas b{
+	font-size:25px;
+}
+
+#chart-area{
+  	margin: 40px auto;
+  	display: block;
+  	text-align: center;
+}
+
+/* FOOTER */
+.assinatura{
+	position: fixed;
+	font-size: 12px;
+  	width: 100%;
+  	color: #FFF;
+  	text-align: center;
+  	bottom: 0;
+  	text-align: right;
+  	margin: 20px 20px 10px 0px;
+}
+
+.assinatura a{
+	color: #fff;
+	font-weight:bold;
+}
+
+/* TABLETs */
+@media (max-width: 992px) {
+	
+	h1 {
+		font-size: 40px;
+	}
+	
+	.menu li {
+		list-style: none;
+		display: inline-block;
+		margin: 0px 10px;
+	  	font-size: 18px;
+	  	text-transform: uppercase;
+	}
+}
+
+/* MOBILE */
+@media (max-width: 768px) { 
+	
+	h1 {
+		font-size: 20px;
+	}
+	
+	.botao-menu {
+		display:block;
+	}
+	
+	.menu{
+		padding: 0px 0px 30px;
+	}
+	.menu li{
+	  	margin: 20px 10px;
+	  	display:block;
+	  	font-size: 14px;
+	}
+	
+	.menu ul{
+		display: none;
+	}
+	
+	.assinatura {
+	 	text-align: center;
+	}
+}
+

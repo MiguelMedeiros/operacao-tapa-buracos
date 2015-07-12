@@ -1,0 +1,7 @@
+[30-Jun-2015 16:00:47] PHP Fatal error:  Call to a member function find() on a non-object in /home/migue492/public_html/operacaotapaburacos/app/Controller/MarkersController.php on line 39
+[30-Jun-2015 16:02:13] PHP Fatal error:  Call to a member function find() on a non-object in /home/migue492/public_html/operacaotapaburacos/app/Controller/MarkersController.php on line 39
+[30-Jun-2015 16:02:37] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/migue492/public_html/operacaotapaburacos/app/Controller/MarkersController.php on line 49
+[01-Jul-2015 02:22:01] PHP Parse error:  syntax error, unexpected ';' in /home/migue492/public_html/operacaotapaburacos/app/Controller/PagesController.php on line 17
+[05-Jul-2015 01:33:23] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in /home/operacaotapabura/public_html/app/Controller/UsersController.php on line 5
+[05-Jul-2015 18:50:07] PHP Fatal error:  Class 'AppController' not found in /home/operacaotapabura/public_html/app/Controller/UsersController.php on line 3
+[05-Jul-2015 19:45:37] PHP Fatal error:  Call to undefined method MarkersController::formatarData() in /home/operacaotapabura/public_html/app/Controller/MarkersController.php on line 71
