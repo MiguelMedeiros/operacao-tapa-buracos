@@ -1,22 +1,19 @@
 {
 	"name": "cakephp/cakephp",
-	"description": "The CakePHP framework",
-	"type": "library",
-	"keywords": ["framework"],
-	"homepage": "http://cakephp.org",
+	"description": "Um projeto para ajudar a melhorar a qualidade de nossas ruas e estradas",
+	"type": "project",
+	"keywords": ["operacaotapaburacos", "tapaburacos"],
+	"homepage": "http://operacaotapaburacos.com.br/",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "CakePHP Community",
-			"homepage": "https://github.com/cakephp/cakephp/graphs/contributors"
+			"name": "Miguel Medeiros",
+			"homepage": "http://www.miguelmedeiros.com.br/"
+		},
+		{
+			"name": "Comunidade de desenvolvedores",
 		}
 	],
-	"support": {
-		"issues": "https://github.com/cakephp/cakephp/issues",
-		"forum": "http://stackoverflow.com/tags/cakephp",
-		"irc": "irc://irc.freenode.org/cakephp",
-		"source": "https://github.com/cakephp/cakephp"
-	},
 	"require": {
 		"php": ">=5.2.8",
 		"ext-mcrypt": "*"
