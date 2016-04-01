@@ -70,7 +70,7 @@
 			
 			<div class="menu">
 				<div class="botao-menu">
-					<a onClick="_gaq.push(['_trackEvent', 'Menu', 'Mobile', 'Click no botão Mobile']);" href="javacript:void(0);" id="botao-mobile"><i class="fa fa-bars"></i></a>
+					<a onClick="_gaq.push(['_trackEvent', 'Menu', 'Mobile', 'Click no botão Mobile']);" href="#" id="botao-mobile"><i class="fa fa-bars"></i></a>
 				</div>
 				
 				
